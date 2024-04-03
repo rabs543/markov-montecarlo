@@ -11,4 +11,4 @@ beta_0 = 10 ** (-3)
 mu_0 = 60
 tau_0 = 20
 
-data = np.genfromtxt("src\II-10-9-2023football.csv", delimiter=",", skip_header=1, usecols=(1, 2, 3, 4, 5))
+data = np.genfromtxt("resources/II-10-9-2023football.csv", delimiter=",", skip_header=1, usecols=(1, 2, 3, 4, 5))

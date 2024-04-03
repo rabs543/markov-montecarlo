@@ -1,7 +1,7 @@
 """This file contains the posterior distributions for the different parameters in this example."""
 
 import numpy as np
-from config import data, sigma_0, tau_0, mu_0, alpha_0, beta_0, T, K
+from .config import data, sigma_0, tau_0, mu_0, alpha_0, beta_0, T, K
 
 
 Sy = np.sum(data, axis=1)
